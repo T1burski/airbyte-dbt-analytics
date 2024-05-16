@@ -400,6 +400,27 @@ openlineage = ["apache-airflow-providers-openlineage"]
 pandas = ["pandas (>=1.2.5,<2.2)"]
 
 [[package]]
+name = "apache-airflow-providers-dbt-cloud"
+version = "3.8.0"
+description = "Provider package apache-airflow-providers-dbt-cloud for Apache Airflow"
+optional = false
+python-versions = "~=3.8"
+files = [
+    {file = "apache_airflow_providers_dbt_cloud-3.8.0-py3-none-any.whl", hash = "sha256:20445f2c6195622b67ffd8b36af186d743551b690475e515173699925bc1cdd0"},
+    {file = "apache_airflow_providers_dbt_cloud-3.8.0.tar.gz", hash = "sha256:cea06f27d30485e4d38b36ba9108af6e388ceac5e95c9957419ad818049d8a6d"},
+]
+
+[package.dependencies]
+aiohttp = ">=3.9.2"
+apache-airflow = ">=2.7.0"
+apache-airflow-providers-http = "*"
+asgiref = "*"
+
+[package.extras]
+http = ["apache-airflow-providers-http"]
+openlineage = ["apache-airflow-providers-openlineage"]
+
+[[package]]
 name = "apache-airflow-providers-fab"
 version = "1.1.0"
 description = "Provider package apache-airflow-providers-fab for Apache Airflow"
@@ -3582,4 +3603,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "==3.11.5"
-content-hash = "1fd07b40597c8672a38c6ec9ca12690e24c8246ab6c5b36f3c5593b93d4179fb"
+content-hash = "1f8eb855cc36b7c6d133de14b4db584089a8df9194184762d4809803fdc38f11"
