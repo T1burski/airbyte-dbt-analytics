@@ -18,7 +18,7 @@ def running_dbt_cloud():
         task_id="run_dbt",
         dbt_cloud_conn_id=DBT_CLOUD_CONN_ID,
         job_id=JOB_ID,
-        check_intervals=60,
+        check_interval=60,
         timeout=360
     )
 
