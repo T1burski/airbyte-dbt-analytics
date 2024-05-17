@@ -30,4 +30,4 @@ def running_airbyte_googlesheets():
 
     start_airbyte_sync
 
-running_airbyte_bigquery()
+running_airbyte_googlesheets()
