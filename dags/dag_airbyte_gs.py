@@ -14,7 +14,7 @@ API_KEY = f'Bearer {Variable.get("AIRBYTE_API_TOKEN")}'
         start_date=datetime(2024, 4, 17),
         catchup=False
 )
-def running_airbyte_bigquery():
+def running_airbyte_googlesheets():
     start_airbyte_sync = SimpleHttpOperator(
         task_id='start_airbyte_sync',
         http_conn_id='aitbyte',
