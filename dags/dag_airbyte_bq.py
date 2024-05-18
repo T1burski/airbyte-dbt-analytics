@@ -17,7 +17,7 @@ API_KEY = f'Bearer {Variable.get("AIRBYTE_API_TOKEN")}'
 def running_airbyte_bigquery():
     start_airbyte_sync = SimpleHttpOperator(
         task_id='start_airbyte_sync',
-        http_conn_id='aitbyte',
+        http_conn_id='airbyte',
         endpoint=f'/v1/jobs',
         method='POST',
         headers={"Content-Type": "application/json",
