@@ -11,7 +11,7 @@ API_KEY = f'Bearer {Variable.get("AIRBYTE_API_TOKEN")}'
 
 @dag(
         schedule="@daily",
-        start_date=datetime(2024, 4, 17),
+        start_date=datetime(2024, 4, 19),
         catchup=False
 )
 def running_airbyte_googlesheets():
