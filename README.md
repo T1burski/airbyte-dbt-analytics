@@ -123,3 +123,7 @@ Now, let's see how the final tables look like:
 ### Top 10 Product Categories:
 
 ![image](https://github.com/T1burski/airbyte-dbt-analytics/assets/100734219/5d80d31f-5fa0-4b1e-88a7-589df2f87561)
+
+Now, the business can use this consumption ready data with their BI tools to generate insights!
+
+Solution done!
