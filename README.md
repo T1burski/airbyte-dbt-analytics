@@ -112,4 +112,14 @@ In order to create the whole pipeline that does the ETL process, from BigQuery +
 
 ![image](https://github.com/T1burski/airbyte-dbt-analytics/assets/100734219/6c11fb6f-59ac-4be9-b014-480a5fd8ff6b)
 
-Solution done! 
+## 5) Final Data and Applications:
+
+Now, let's see how the final tables look like:
+
+### Regions' Goals Analysis:
+
+![image](https://github.com/T1burski/airbyte-dbt-analytics/assets/100734219/478165c5-a344-4237-8a0f-71c0748a56e4)
+
+### Top 10 Product Categories:
+
+![image](https://github.com/T1burski/airbyte-dbt-analytics/assets/100734219/5d80d31f-5fa0-4b1e-88a7-589df2f87561)
